@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 7rem;
+  background-color: hsl(0, 100%, 74%) ;
+  background-image: url("./assets/bg-intro-desktop.png");
+}
+
+@media (max-width: 1024px){
+  .container{
+    flex-direction: column;
+  }
+
+  
+}
+
+

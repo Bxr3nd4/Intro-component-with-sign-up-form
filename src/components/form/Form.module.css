@@ -1,0 +1,82 @@
+.btn_action {
+  background-color: hsl(248, 32%, 49%);
+  border: 0;
+  outline: 0;
+  width: 100%;
+  cursor: pointer;
+  padding-left:7.5rem ;
+  padding-right: 7.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 7px 0px 0 rgba(73, 73, 73, 0.226);
+}
+
+.btn_action span {
+  font-weight: 600;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  padding: 1.5rem 2.5rem 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 7px 0px 0 rgba(73, 73, 73, 0.226);
+  position: relative;
+  margin-bottom: 0px;
+}
+button {
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 -4px 0px 0 rgba(73, 73, 73, 0.226) inset;
+  margin: 1rem 0;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+input:first-of-type {
+  margin-top: 1.5rem;
+}
+input {
+  background-color: #fff;
+  outline: 0;
+  border: 0.1rem solid hsl(246, 25%, 77%);
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: #3e3c49;
+  position: relative;
+}
+input:focus {
+  border: 1px solid black;
+}
+.text {
+  color: rgba(74, 71, 71, 0.63);
+  margin-top: 0.2rem;
+  font-style: italic;
+  align-self: flex-end;
+  background-color: #fff;
+}
+a {
+  background-color: #fff;
+}

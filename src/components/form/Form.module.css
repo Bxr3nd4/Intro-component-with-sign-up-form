@@ -10,6 +10,7 @@
   color: white;
   margin-bottom: 1.5rem;
   box-shadow: 0 7px 0px 0 rgba(73, 73, 73, 0.226);
+  text-transform: none;
 }
 
 .btn_action span {
@@ -37,10 +38,9 @@ button {
   cursor: pointer;
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 0 -4px 0px 0 rgba(73, 73, 73, 0.226) inset;
+  box-shadow: 0 -4px 0px 0 rgba(73, 73, 73, 0.226) ;
   margin: 1rem 0;
   font-weight: 500;
-  transition: 0.3s;
 }
 .contentForm {
   display: flex;
@@ -79,4 +79,15 @@ input:focus {
 }
 a {
   background-color: #fff;
+}
+
+a{
+  color: hsl(0, 100%, 74%) ;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+
+
 }
